@@ -107,6 +107,11 @@ color: #434455;
   color: #ffffff;
   text-align: center;   
 } 
+.main-container {
+  display: flex;
+  align-items: center;
+}
+
 .hero-title {
 font-weight: 700;
 font-size: 56px;
