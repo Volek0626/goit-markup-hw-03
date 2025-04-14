@@ -146,7 +146,14 @@ background-color: #404bbf;}
 
 
 .features-section {
+  display: flex;
+  align-items: center;
   background-color: #F4F4FD;
+}
+.features-container {
+  padding: 120px 0;
+  display: flex;
+  
 }
 .visually-hidden {
   position: absolute;
@@ -159,6 +166,14 @@ background-color: #404bbf;}
   clip-path: inset(100%);
   margin: -1px;
 }
+.features-list {
+  gap: 24px;
+  width: calc((100% - 72px) / 4);
+  
+
+
+  }
+
 .features-title {
   font-weight: 500;
   font-size: 20px;
@@ -167,6 +182,7 @@ background-color: #404bbf;}
   color: #2e2f42;
   text-align: center;
   text-transform: capitalize;
+  margin-bottom: 8px;
 }
 
 .features-text {
