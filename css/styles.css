@@ -105,6 +105,7 @@ color: #434455;
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   line-height: 1.5;}
+
 .hero-section {
   padding: 188px 0;
   background-color: #2e2f42;
@@ -149,6 +150,7 @@ background-color: #404bbf;}
   display: flex;
   align-items: center;
   background-color: #F4F4FD;
+  padding: 120px 0;
 }
 .features-container {
   padding: 120px 0;
@@ -166,13 +168,8 @@ background-color: #404bbf;}
   clip-path: inset(100%);
   margin: -1px;
 }
-.features-list {
-  gap: 24px;
-  width: calc((100% - 72px) / 4);
-  
+.features-list 
 
-
-  }
 
 .features-title {
   font-weight: 500;
@@ -193,6 +190,9 @@ background-color: #404bbf;}
 }
 .features-item {
   background-color: #FFFFFF;
+  gap: 24px;
+  width: calc((100% - 72px) / 4);
+  
 
 }
 .team-section {
