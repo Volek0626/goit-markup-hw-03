@@ -147,9 +147,6 @@ background-color: #404bbf;}
 
 /* features */
 .features-section {
-  display: flex;
-  align-items: center;
-  background-color: #F4F4FD;
   padding: 120px 0;
 }
 .features-container {
